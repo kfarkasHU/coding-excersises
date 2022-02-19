@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist-tsc/",
+    "noImplicitAny": false,
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "allowJs": false,
+    "moduleResolution": "node",
+  },
+  "include": [
+    "src"
+  ]
+}

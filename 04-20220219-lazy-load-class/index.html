@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy POC</title>
+  </head>
+  <body
+    style="
+      height: 100%;
+      margin: 0
+    "
+  >
+    <div
+      style="
+        height: calc(100% - 8px);
+        padding: 4px 8px;
+      "
+    >
+      <div style="height: 45px; margin: 4px 0;">
+        <button id="btn-load-a" style="height: 100%;">Load A!</button>
+        <button id="btn-load-b" style="height: 100%;">Load B!</button>
+      </div>  
+      <div
+        id="render-area"
+        style="
+          background-color: #3E3E3E;
+          color: #E6E6E6;
+          width: calc(100% - 8px);
+          height: calc(100% - 45px - 8px - 8px);
+          border: 1px solid black;
+          border-radius: 4px;
+          padding: 4px;
+        "
+      >
+        Empty
+      </div>
+    </div>
+  </body>
+</html>
