@@ -1,0 +1,11 @@
+@import "./mixin";
+
+div {
+  @include redBackground();
+
+  > div {
+    > h1 {
+      font-size: 500;
+    }
+  }
+}

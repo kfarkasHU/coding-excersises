@@ -1,0 +1,12 @@
+div {
+  > div {
+    color: green;
+    > h1 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+  span {
+    text-decoration: underline;
+  }
+}
