@@ -1,0 +1,76 @@
+.dice {
+  margin: 8px;
+  width: var(--dice-size-width);
+  height: var(--dice-size-height);
+  border: var(--dice-border);
+  border-radius: var(--dice-border-radius);
+  background-color: var(--dice-bgcolor);
+}
+
+.dice .dot {
+  display: block;
+  margin: 8px;
+  width: var(--dice-dot-size-width);
+  height: var(--dice-dot-size-height);
+  border-radius: var(--dice-dot-border-radius);
+  background-color: var(--dice-fgcolor);
+}
+
+.dice > .dot-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dice.dice-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice.dice-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dice.dice-2 > .dot:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.dice.dice-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice.dice-3 > .dot:nth-of-type(1) {
+  align-self: flex-start;
+}
+
+.dice.dice-3 > .dot:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+.dice.dice-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dice.dice-4 > .dot-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dice.dice-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dice.dice-5 > .dot {
+  align-self: center;
+}
+
+.dice.dice-6 {
+  display: flex;
+  flex-direction: column;
+}

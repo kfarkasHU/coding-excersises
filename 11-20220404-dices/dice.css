@@ -1,0 +1,15 @@
+:root {
+  --dice-fgcolor: white;
+  --dice-bgcolor: black;
+  --dice-size-width: 150px;
+  --dice-size-height: 150px;
+
+  --dice-border: 1px solid var(--dice-bgcolor);
+  --dice-border-radius: 8px;
+
+  --dice-dot-size: 32px;
+
+  --dice-dot-size-width: var(--dice-dot-size);
+  --dice-dot-size-height: var(--dice-dot-size);
+  --dice-dot-border-radius: var(--dice-dot-size);
+}
